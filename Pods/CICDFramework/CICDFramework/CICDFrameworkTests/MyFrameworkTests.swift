@@ -14,4 +14,8 @@ class MyFrameworkTests: XCTestCase {
         XCTAssertEqual(MyFramework.helloFromMyFramewok(),"Hello from my framework")
     }
 
+    func test_shouldFail() {
+        XCTAssertTrue(false, "Should be true")
+    }
+
 }

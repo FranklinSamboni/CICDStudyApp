@@ -19,12 +19,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   CICDFramework:
-    :commit: 474c8f46e3eb218e37d2ac7f64f8c036cfa99cf3
+    :commit: 57d054e004bbd34286da1c484cc7209b0c8f7e91
     :git: https://github.com/FranklinSamboni/CICDFramework.git
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  CICDFramework: 9b6fc95ca94ac4e90fb76084da007c048c1bb364
+  CICDFramework: b9461f52359be99282a20e9c386bb509c76fd152
 
 PODFILE CHECKSUM: 93b826ffa6810aa22bdd236079f435a4bb66fe5a
 
