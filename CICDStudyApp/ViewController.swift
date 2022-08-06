@@ -7,7 +7,6 @@
 
 import UIKit
 import CICDFramework
-import CICDRawFramework
 
 class ViewController: UIViewController {
 
@@ -17,7 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         helloLabel.text = MyFramework.helloFromMyFramewok()
-        rawLabel.text = RawFramework.helloFromRaw()
     }
 
 }

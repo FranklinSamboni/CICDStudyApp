@@ -15,8 +15,6 @@
 		2944E5CF289DCDC6006C8B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2944E5CE289DCDC6006C8B43 /* Assets.xcassets */; };
 		2944E5D2289DCDC6006C8B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2944E5D0289DCDC6006C8B43 /* LaunchScreen.storyboard */; };
 		2944E61E289DDA63006C8B43 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E61D289DDA63006C8B43 /* ViewControllerTests.swift */; };
-		2944E651289DE21F006C8B43 /* CICDRawFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2944E650289DE21F006C8B43 /* CICDRawFramework.framework */; };
-		2944E652289DE21F006C8B43 /* CICDRawFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2944E650289DE21F006C8B43 /* CICDRawFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B7CC41C4EA429510463573D /* Pods_CICDStudyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425775D3D2310C7736EF592E /* Pods_CICDStudyApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,20 +27,6 @@
 			remoteInfo = CICDStudyApp;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2944E653289DE21F006C8B43 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2944E652289DE21F006C8B43 /* CICDRawFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1726E92A5026D5F72AB86939 /* Pods_CICDStudyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDStudyAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +55,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7CC41C4EA429510463573D /* Pods_CICDStudyApp.framework in Frameworks */,
-				2944E651289DE21F006C8B43 /* CICDRawFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +145,6 @@
 				2944E5BF289DCDC3006C8B43 /* Frameworks */,
 				2944E5C0289DCDC3006C8B43 /* Resources */,
 				6387A43E29BA339E772BDE39 /* [CP] Embed Pods Frameworks */,
-				2944E653289DE21F006C8B43 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

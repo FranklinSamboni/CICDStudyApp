@@ -1,0 +1,4 @@
+os: osx
+osx_image: xcode12.5
+language: swift
+script: xcodebuild clean build test -workspace CICDStudyApp.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max' -scheme "CI" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
