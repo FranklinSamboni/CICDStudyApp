@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CICDStudyApp/Pods-CICDStudyApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CICDFramework/CICDFramework.framework

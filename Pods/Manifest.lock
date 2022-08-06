@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.6.2)
+  - CICDFramework (0.0.1):
+    - Alamofire
+  - CICDFramework/UnitTests (0.0.1):
+    - Alamofire
+
+DEPENDENCIES:
+  - CICDFramework (from `https://github.com/FranklinSamboni/CICDFramework.git`)
+  - CICDFramework/UnitTests (from `https://github.com/FranklinSamboni/CICDFramework.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  CICDFramework:
+    :git: https://github.com/FranklinSamboni/CICDFramework.git
+
+CHECKOUT OPTIONS:
+  CICDFramework:
+    :commit: 474c8f46e3eb218e37d2ac7f64f8c036cfa99cf3
+    :git: https://github.com/FranklinSamboni/CICDFramework.git
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  CICDFramework: 9b6fc95ca94ac4e90fb76084da007c048c1bb364
+
+PODFILE CHECKSUM: 93b826ffa6810aa22bdd236079f435a4bb66fe5a
+
+COCOAPODS: 1.11.2

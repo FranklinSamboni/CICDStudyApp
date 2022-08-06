@@ -1,0 +1,31 @@
+{
+  "name": "CICDFramework",
+  "version": "0.0.1",
+  "summary": "A short description of CICDFramework.",
+  "description": "Description",
+  "homepage": "http://www.google.com",
+  "authors": {
+    "franklin.samboni": "franklin.samboni@globant.com"
+  },
+  "source": {
+    "git": "http://www.google.com",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "CICDFramework/CICDFramework/**/*.{h,m,swift}",
+  "resources": "CICDFramework/CICDFramework/**/*.{png,json,storyboard,xib,strings}",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "UnitTests",
+      "test_type": "unit",
+      "source_files": "CICDFramework/CICDFrameworkTests/**/*.{h,m,swift}"
+    }
+  ]
+}

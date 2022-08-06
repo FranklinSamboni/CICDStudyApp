@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import CICDFramework
+import CICDRawFramework
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var helloLabel: UILabel!
+    @IBOutlet weak var rawLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        helloLabel.text = MyFramework.helloFromMyFramewok()
+        rawLabel.text = RawFramework.helloFromRaw()
     }
-
 
 }
 
